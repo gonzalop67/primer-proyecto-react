@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import UserList from "./components/UserList";
 
 export const UserApp = () => {
-  const [endPoint, setendPoint] = useState("users");
+  const [endPoint, setEndPoint] = useState("users");
 
   const handleFetch = () => {
-    setendPoint("comments");
+    setEndPoint("comments");
   };
 
   return (
